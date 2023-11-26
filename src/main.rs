@@ -1,3 +1,5 @@
+use dome::deref_dome;
+
 fn main() {
-    println!("Hello, world!");
+    deref_dome::start();
 }
